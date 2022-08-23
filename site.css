@@ -1,0 +1,66 @@
+.nuur {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    position: absolute;
+    z-index: -11;
+   
+}
+
+img {
+    height: 100%;
+    width: 100%;
+
+}
+
+body {
+    padding: 0px;
+    margin: 0;
+}
+
+.logo {
+    z-index: 1;
+    width: 210px;
+    height: 50px;
+    border: solid;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    position: absolute;
+    
+}
+.logo2{
+    z-index: 1;
+    width: 200px;
+    height: 50px;
+    border: solid;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    position: absolute; left: 1000px; top: 40px;
+    
+}
+
+.mail{
+    z-index: 1;
+    width: 150px;
+    height: 40px;
+    border: solid;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* color: white; */
+    position: absolute; left: 1000px; top: 300px;
+    background-color:cyan;
+}
+
+.pass{
+    z-index: 1;
+    width: 150px;
+    height: 40px;
+    border: solid;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    position: absolute; left: 1000px; top: 350px;
+    background-color:cyan;
+}
